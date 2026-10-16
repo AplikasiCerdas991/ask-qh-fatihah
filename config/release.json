@@ -1,0 +1,138 @@
+{
+  "standardVersion": "1.0-RC02",
+  "buildId": "ASK-QH-GS-RC02-TERPADU-B01",
+  "buildDate": "2026-10-16",
+  "schemaVersion": 1,
+  "appId": "fatihah-rc02-terpadu-b01-preview",
+  "title": "FATIHAH",
+  "subtitle": "Memahami & Menghayati Surah Al-Fatihah",
+  "phase": "RC02-TERPADU-B01",
+  "status": "RC_NOT_GOLDEN",
+  "contentVersion": "FATIHAH-P11-B02-ASSESSMENT-CANDIDATE-01",
+  "contentHash": "92659e15dad15515b871996d2a870da9e337ea87cfb0ff8b677ef58eac9ca79f",
+  "sourceContentHash": "14ef1b3b4a60a63d36d4fbf00bb5d9afffa50dcc14a99d041df3631af6b23e8e",
+  "sourceBaselineHash": "c0e303beec8f6b8f517fad01d728734a79582242dc9ee1263f321a0979a7f6b5",
+  "approvalRefs": [
+    "ASK-QH-GS-OWNER-BASELINE-APPROVAL-001"
+  ],
+  "profiles": [
+    "adult",
+    "kid"
+  ],
+  "enabledFeatures": [
+    "opening",
+    "introduction",
+    "journey",
+    "contentPreview",
+    "studyUnits",
+    "contextualTokens",
+    "saveResume",
+    "mcqTraining",
+    "deviceTTS",
+    "contextVerseAudio",
+    "explicitAudioLabels",
+    "trueFalseTraining",
+    "independentTrainingTypeResume",
+    "pairTraining",
+    "orderTraining",
+    "flashCards",
+    "flashCursorResume",
+    "combinedFullAssessment",
+    "retention24h",
+    "retentionEligibilityDisplay",
+    "scopedRetry",
+    "fullReading",
+    "sources",
+    "localRecordExport",
+    "largeText",
+    "originalAssetZoom",
+    "confirmedProfileReset",
+    "explicitInactiveControls",
+    "guidedNextAction",
+    "evidenceProgress",
+    "wholeVerseSequence",
+    "reverseMeaningPractice",
+    "selfReportedReflection",
+    "separatedArchitecture",
+    "explicitTrainingPolicy",
+    "explicitJourneyPolicy",
+    "unifiedSixPhaseJourney",
+    "sharedStageNavigation",
+    "profileAwareStageEvidence"
+  ],
+  "plannedFeatures": [
+    "publicHttps",
+    "iphoneVQA",
+    "fullAccessibilityVQA"
+  ],
+  "baselineAndroid": "OWNER_PASS_100_PERCENT",
+  "baselineIphone": "NOT_TESTED",
+  "currentBuildAndroid": "NOT_TESTED",
+  "currentBuildIphone": "NOT_TESTED",
+  "assetManifestHash": "fb96bc999cf25cac14fc6e5ce48df864e0fc4705ac646bfa892c1aedf47fff6e",
+  "sourceBaselineRefs": [
+    {
+      "application": "FATIHAH",
+      "version": "G02-RC02",
+      "sha256": "c0e303beec8f6b8f517fad01d728734a79582242dc9ee1263f321a0979a7f6b5",
+      "role": "Approved content baseline"
+    },
+    {
+      "application": "AKSI",
+      "version": "R16",
+      "role": "Approved native-policy design reference integrated selectively in P13"
+    },
+    {
+      "application": "ATASYA",
+      "version": "G01-D08",
+      "role": "Approved native-policy design reference integrated selectively in P13"
+    }
+  ],
+  "packageHash": "00f7314704c099bbabb258a13bfc7884d5d9c2867fa71672f3d5e4d19d3acd32",
+  "packageHashDefinition": "SHA-256 of canonical selected release identity/content/asset/features fields; individual executable hashes provided separately.",
+  "engineSource": "Unchanged FATIHAH LearningEngine and device TTS with shared study/training/full/retention/retry facade",
+  "engineHashes": {
+    "content/fatihah/content.js": "9976ec705cbc6c46e46359c13647b00131beee8d964176a6eaf37cb0448da5a7",
+    "config/assets.js": "449b03367f6600763a8693cef773028399d22d1f3a043eb410b7d77c45134c52",
+    "config/package.js": "cc72ecf1ab5978f2976599223c562fca30f5c87d2ee13a4fdf3684b332d4d692",
+    "policies/training-policy.js": "559a6d076b225d8f5032f3837024e35a2a81d8861867520e5c52c89c0ef029f2",
+    "policies/journey-policy.js": "2a842f9769ffca4467d6f2dbc552d9fc1b1175a122310a84abda8cf467e451a5",
+    "engine/learning-core.js": "9d0b586330bea3593c66a8bd4798946b9ee7339cb5b3907b1dde7dea2a3dd5b6",
+    "engine/device-audio.js": "e6ad6eaab44067d816c8ab32a4709db4d28e0105718235e4625a62feb754ace8",
+    "engine/study-engine.js": "344b66b7d1bc3f874742e510b88186439ece4d523e366cf36764dbacf49ce7c6",
+    "engine/journey-tools.js": "4e438bdbd102457b5dfd1aa3c029dcae9e3191810f50f211c6a1b0cfe1521a60",
+    "presentation/unified-journey.js": "3260526bb1fb0c6699fb25f04effa9eeec7d60934b9273ca8f75171fbc5a5ef0",
+    "presentation/app.js": "4a2c61a150cda664d8f7740efeeef80c5401ee60031ecbf0688cea3eec209ebe"
+  },
+  "phaseScope": "Single Al-Fatihah prototype: selected AKSI/ATASYA learning strengths organised into six consistent phases after profile choice; existing content, engines, policies and 35-mark assessment preserved",
+  "ownerApproval": {
+    "frozenFatihahP13": "OWNER_PASS_100_PERCENT_ANDROID_OPPO_BOTH_PROFILES_AUDIO",
+    "frozenAksiAtasyaP12": "OWNER_PASS_100_PERCENT",
+    "freeze": "OWNER_EXPLICITLY_APPROVED",
+    "currentRC02": "PENDING_OWNER_VQA",
+    "iphone": "NOT_TESTED",
+    "real24h": "NOT_CONFIRMED",
+    "currentRC02Terpadu": "PENDING_OWNER_VQA"
+  },
+  "storagePolicy": "Isolated integrated-candidate namespace; no migration or writes to P12/P13/RC02-FATIHAH records",
+  "hashSpecification": {
+    "content.hash": "SHA-256 UTF-8 compact JSON, keys sorted recursively, no ASCII escaping or trailing newline, top-level hash excluded; arrays retain order",
+    "release.contentHash": "SHA-256 exact bytes of packages/fatihah/content.json (includes content.hash)",
+    "sourceContentHash": "Legacy source identifier retained verbatim; original derivation not independently established",
+    "packageHash": "Selected release identity/content/assets/features fields only; file checksums supplied separately"
+  },
+  "assessmentLayoutApproval": "B02_OWNER_APPROVED; P13 additions PENDING",
+  "distribution": "Modular architecture WEB/SOURCE ZIP; standalone compiled from same module graph; original PNG retained",
+  "baselineLockId": "ASK-QH-GS-BASELINE-FROZEN-001",
+  "architecture": {
+    "content": "content/fatihah",
+    "presentation": "presentation",
+    "runtime": "engine",
+    "policies": "policies",
+    "configuration": "config"
+  },
+  "trainingPolicyId": "FATIHAH-P13-TRAINING-POLICY-01",
+  "journeyPolicyId": "FATIHAH-P13-JOURNEY-POLICY-01",
+  "compositionMeaning": "One Al-Fatihah application; not a launcher for three religious content packages",
+  "matrixId": "ASK-QH-GS-MATRIKS-AKHIR-RC02-01"
+}
